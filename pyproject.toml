@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "Scraping Diarios"
+version = "0.1.0"
+description = ""
+authors = ["Luciano Montanares <lmontanareso@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Scrapy = "^2.5.1"
+logzero = "^1.7.0"
+scrapy-fake-useragent = "^1.4.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
